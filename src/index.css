@@ -1,0 +1,216 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+.heading_div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 3rem;
+  padding: 2rem;
+  font-family: Corbel;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: blueviolet;
+  letter-spacing: .2rem;
+  border-bottom: 2px solid black;
+}
+
+.main_inner_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+.main_inner_1_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:3rem;
+  margin-top: 3rem;
+}
+.main_inner_1_div input{
+ padding: .3rem 7rem .3rem .5rem;
+ text-transform: capitalize;
+ border:2px solid black;
+ border-radius: 5px;
+ font-family: Corbel;
+ font-weight: 800;
+}
+.add_pic_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted black;
+  padding: 5rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.add_pic_div:hover{
+  cursor: pointer;
+}
+.main_inner_2_div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: Corbel;
+  font-weight: 800;
+  font-size: 1.3rem;
+  gap: 1rem;
+}
+.main_inner_2_div textarea{
+  resize: none;
+  border:2px solid black;
+  border-radius: 5px;
+}
+.main_inner_3_div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-family: Corbel;
+  font-weight: 800;
+  font-size: 1.3rem;
+  gap: 1rem;
+}
+.main_inner_3_div textarea{
+  resize: none;
+  border:2px solid black;
+  border-radius: 5px;
+}
+.button_div{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button_div button{
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-family: Corbel;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.button_div button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+}
+.display_result_div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin:10rem 10rem 0 10rem;
+  background-color: black;
+  border-top-left-radius:  10px;
+  border-top-right-radius:  10px;
+
+}
+.display_result_image_div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  height: 30vh;
+  width: 20vw;
+}
+.display_result_image_div img{
+  height: 100%;
+  width: 100%;
+  /* box-shadow: 10px 10px 5px rgb(102, 101, 101); */
+}
+.display_result_heading_div{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  margin: 3rem;
+  font-family: Corbel;
+  font-weight: 800;
+  font-size: 1.7rem;
+  gap: 1rem;
+}
+.display_result_div_1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 10rem 10rem 10rem;
+  border: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.display_content_1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 4rem;
+  gap:2rem;
+}
+.display_content_2{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 4rem;
+  gap:2rem;
+}
+.display_content_3{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 4rem;
+  gap:2rem;
+}
+.display_content_4{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 4rem;
+  gap:2rem;
+}
+.display_content_1 p{
+  color: rgb(156, 84, 223);
+  font-family: Crobel;
+  font-size: 1.5rem;
+  
+}
+.display_content_2 p{
+  color:rgb(156, 84, 223);
+  font-family: Crobel;
+  font-size: 1.5rem;
+  
+}
+.display_content_3 p{
+  color:rgb(156, 84, 223);
+  font-family: Crobel;
+  font-size: 1.5rem;
+  
+}
+.display_content_4 p{
+  color:rgb(156, 84, 223);
+  font-family: Crobel;
+  font-size: 1.5rem;
+  
+}
+
+
